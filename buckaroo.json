@@ -1,0 +1,17 @@
+{
+  "name": "test-lib-platform-deps",
+  "platformDependencies": [
+    {
+      "platform": "linux.*",
+      "dependencies": {
+        "github+njlr/test-lib-linux-only": "0.1.0"
+      }
+    },
+    {
+      "platform": "macos.*",
+      "dependencies": {
+        "github+njlr/test-lib-macos-only": "0.1.0"
+      }
+    }
+  ]
+}
