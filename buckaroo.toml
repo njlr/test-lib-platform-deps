@@ -1,0 +1,9 @@
+[[platformDependency]]
+name = "github.com/njlr/test-lib-linux-only"
+version = "*"
+platform = "^linux.*"
+
+[[platformDependency]]
+name = "github.com/njlr/test-lib-macos-only"
+version = "*"
+platform = "^macos.*"
